@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color:   #1e242b;
+}
+.fourth:hover{
+    background: #1e242b;
+
+}
+.header{
+    background: radial-gradient(#1e242b);
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #EE4A11;
+}
+p{
+    color: hsl(216, 46%, 50%);
+    font-size: x-large;
+    margin: 20px;
+}
+.contact{text-align: center;
+    margin-top: 50px;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header .row{
+    margin-top: 70px;
+}
+.name{
+    color: #EE4A11;
+    margin-bottom: 30px;
+    font-size: larger;
+  
+    
+}
+.name input {
+    width:400px;
+    height: 50px;
+    margin-left: 40px;
+    }
+    .namea{
+        color: #EE4A11;
+        margin-bottom: 30px;
+        font-size: larger;
+      
+        
+    }
+    .namea input {
+        width:400px;
+        height: 50px;
+        margin-left: 45px;
+        }
+    .namep{
+        color: #EE4A11;
+        margin-bottom: 30px;
+        font-size: larger;
+        
+    }
+    .namep input {
+        width:400px;
+        height: 50px;
+        margin-left:55px;
+        
+        }
+        .namepc{
+            color: #EE4A11;
+            margin-bottom: 30px;
+            font-size: larger;
+            
+        }
+        .namepc input {
+            width:400px;
+            height: 55px;
+            
+            
+            }
+        .namepe{
+            color: #EE4A11;
+            margin-bottom: 30px;
+            font-size: larger;
+            
+        }
+        .namepe input {
+            width:400px;
+            height: 50px;
+            margin-left: 80px;
+            
+            }
+            .phone{
+                color: #EE4A11;
+                margin-bottom: 30px;
+                font-size: larger;
+                
+                
+            }
+            .phone input {
+                width:400px;
+                height: 50px;
+                margin-left: 35px;
+                }
+        .buttons-padding{
+            margin-top: 40px;
+            margin-left: 80px;
+        }
+        .buttons-padding input{
+            text-align: center;
+            width: 70px;
+            height:70px;
+        
+        font-size:large;
+        color: #EE4A11;
+        background-color:hsl(216, 46%, 50%); 
+        
+        }
+
+hr{
+    border: none;
+    background: black;
+    height: 5px;
+
+    
+}
+.copyright{
+    
+    text-align: center;
+    background-color: black;
+    color: #EE4A11;
+    font-size: larger;
+    
+
+}
+.copyright span{
+    color: hsl(216, 46%, 50%);
+    font-size: larger;
+}
